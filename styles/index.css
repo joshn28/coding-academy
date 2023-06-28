@@ -44,7 +44,8 @@ button {
     background-color: #648DE5;
     border: none;
     border-radius: 5px;
-    font-weight: bold;
+    font-size: 1em;
+    font-weight: bolder;
     cursor: pointer;
 }
 
@@ -53,7 +54,7 @@ button {
     width: 80%;
     display: flex;
     flex-direction: column;
-    background-color: rgba(244, 244, 244, 0.85);
+    background-color: rgba(254, 252, 253, 0.85);
     padding: 20px;
     border-radius: 10px;
     gap: 20px 0;
