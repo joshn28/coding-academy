@@ -1,20 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url(variables.css);
-@import url(navbar.css);
-@import url(footer.css);
-@import url(card.css);
-@import url(button.css);
-
-* {
-    margin: 0;
-    padding: 0;
-}
+@import url(main.css);
 
 body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 110vh;
-    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -34,4 +24,26 @@ footer {
     grid-auto-rows: max-content;
     width: 80%;
     margin: 0 auto;
+}
+
+figure img {
+    max-height: auto;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 0.8em;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    padding: 15px;
+    gap: 0.8em 0;
 }

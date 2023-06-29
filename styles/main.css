@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --btn-color: #648DE5;
+    --font-color: #FEFCFD;
+    --nav-color: #0A122A;
+    --footer-color: #0A122A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation Bar */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    background-color: var(--nav-color);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav__bar {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0 10vw;
+    padding: 20px 0;
+    color: var(--font-color);
+    font-size: 0.9em;
+}
+
+.nav__bar li a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+#logo {
+    height: 80%;
+    width: auto;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    min-height: max-content;
+    padding: 20px 0 20px 20px;
+    background-color: var(--footer-color);
+    color: var(--font-color);
+    font-size: 0.9em;
+}
+
+button {
+    width: max-content;
+    padding: 10px 30px;
+    background-color: var(--btn-color);
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bolder;
+    cursor: pointer;
+}
