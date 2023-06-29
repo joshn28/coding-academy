@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(main.css);
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 110vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 40px 0;
+}
+
+section {
+    width: 85%;
+    margin: 0 auto;
+}
+
+dt {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+dt, dd {
+    margin-bottom: 20px;
+}
