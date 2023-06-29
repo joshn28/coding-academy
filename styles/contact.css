@@ -1,0 +1,61 @@
+@import url(main.css);
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 110vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: center / cover url('../imgs/contact-bg.jpg');
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    width: 25%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 1em;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(254, 252, 253, 0.9);
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 2em;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+textarea {
+    resize: none;
+    max-width: 100%;
+    overflow-y: auto;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    margin: 0 auto;
+}
