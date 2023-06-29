@@ -6,6 +6,10 @@ body {
     min-height: 110vh;
 }
 
+main {
+    background-color: #FEFCFD;
+}
+
 h1 {
     text-align: center;
     font-size: 2.5em;

@@ -12,6 +12,10 @@ h1 {
     margin: 40px 0;
 }
 
+main {
+    background-color: #FEFCFD;
+}
+
 section {
     width: 85%;
     margin: 0 auto;
