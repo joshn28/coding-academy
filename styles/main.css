@@ -43,7 +43,7 @@ nav {
 }
 
 #logo {
-    height: 6.5vh;
+    height: 2.5vh;
     width: auto;
     cursor: pointer;
 }
@@ -67,4 +67,10 @@ button {
     font-size: 1em;
     font-weight: bolder;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+    nav {
+        padding-top: 20px;
+    }
 }
