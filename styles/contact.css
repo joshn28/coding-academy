@@ -29,6 +29,8 @@ form {
     border-radius: 5px;
     padding: 20px;
     background-color: rgba(254, 252, 253, 0.9);
+    animation: slideUp 1.5s ease-in-out;
+    position: relative;
 }
 
 form div {
@@ -58,6 +60,16 @@ input, textarea {
 
 button {
     margin: 0 auto;
+}
+
+@keyframes slideUp {
+    0% {
+        bottom: -800px;
+    }
+
+    100% {
+        bottom: 0;
+    }
 }
 
 @media only screen and (max-width: 1024px) {

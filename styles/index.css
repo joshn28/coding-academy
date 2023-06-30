@@ -39,6 +39,19 @@ section {
     padding: 20px;
     border-radius: 10px;
     gap: 20px 0;
+    animation: slideInLeft 1.3s ease-in-out;
+    position: relative;
+}
+
+@keyframes slideInLeft {
+    0% {
+        right: -700px;
+        opacity: 0;
+    }
+
+    100% {
+        right: 0;
+    }
 }
 
 @media only screen and (max-width: 768px) {
