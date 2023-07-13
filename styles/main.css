@@ -19,13 +19,19 @@ h1 {
 
 /* Navigation Bar */
 
-nav {
+header {
     display: flex;
-    justify-content: space-around;
     min-height: 8vh;
     background-color: var(--nav-color);
     align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .nav__bar {
@@ -50,6 +56,47 @@ nav {
     height: 2.5vh;
     width: auto;
     cursor: pointer;
+}
+
+#user {
+    position: relative;
+}
+
+#user-img {
+    height: 1.5em;
+    width: 1.5em;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--font-color);
+    cursor: pointer;
+}
+
+#user-dropdown {
+    position: absolute;
+    right: 3px;
+    top: 60px;
+    width: 5vw;
+    background-color: var(--font-color);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#user-dropdown > a {
+    text-decoration: none;
+    margin: 10px 0;
+    color: inherit;
+    display: block;
+}
+
+#dropdown-triangle {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgb(254, 252, 253);
+    top: -10px;
+    right: 10px;
 }
 
 footer {
