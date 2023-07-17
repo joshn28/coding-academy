@@ -9,12 +9,13 @@
     <title>Coding Academy</title>
     <link rel="stylesheet" href="./styles/faq.css">
     <link rel="preload" href="./imgs/coding-academy-logo.png" as="image">
+    <link rel="preload" href="./imgs/user.svg" as="image">
     <link rel="icon" href="./imgs/coding-academy-icon.png">
 </head>
 <body>
     <header>
+        <img src="./imgs/coding-academy-logo.png" alt="coding academy logo" id="logo">
         <nav>
-            <img src="./imgs/coding-academy-logo.png" alt="coding academy logo" id="logo">
             <ul class="nav__bar">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./courses.html">Courses</a></li>
@@ -22,6 +23,13 @@
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
+        <div id="user">
+            <img src="imgs/user.svg" alt="" id="profile-img">
+            <div id="user-dropdown" class="hidden">
+                <span id="dropdown-triangle"></span>
+                <a href="#">Sign In</a>
+            </div>
+        </div>
     </header>
     <main>
         <section>

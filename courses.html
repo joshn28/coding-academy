@@ -8,19 +8,14 @@
     <meta name="description" content="Coding Academy's courses page">
     <title>Coding Academy</title>
     <link rel="stylesheet" href="./styles/courses.css">
+    <link rel="preload" href="./imgs/user.svg" as="image">
     <link rel="icon" href="./imgs/coding-academy-icon.png">
     <link rel="preload" href="./imgs/coding-academy-logo.png" as="image">
-    <link rel="preload" href="./imgs/app-dev-course.jpg" as="image">
-    <link rel="preload" href="./imgs/web-dev-course.jpg" as="image"> 
-    <link rel="preload" href="./imgs/python-course.jpg" as="image"> 
-    <link rel="preload" href="./imgs/js-course.jpg" as="image"> 
-    <link rel="preload" href="./imgs/cybersecurity-course.jpg" as="image"> 
-    <link rel="preload" href="./imgs/data-science-course.jpg" as="image">
 </head>
 <body>
     <header>
+        <img src="./imgs/coding-academy-logo.png" alt="coding academy logo" id="logo">
         <nav>
-            <img src="./imgs/coding-academy-logo.png" alt="coding academy logo" id="logo">
             <ul class="nav__bar">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="#">Courses</a></li>
@@ -28,6 +23,13 @@
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
+        <div id="user">
+            <img src="imgs/user.svg" alt="" id="profile-img">
+            <div id="user-dropdown" class="hidden">
+                <span id="dropdown-triangle"></span>
+                <a href="#">Sign In</a>
+            </div>
+        </div>
     </header>
     <main>
         <section>
@@ -82,6 +84,10 @@
                     <button>Enroll</button>
                 </div>
             </div>
+        </section>
+        <section>
+            <h2>Wishlist</h2>
+            
         </section>
     </main>
     <footer>

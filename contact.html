@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="./styles/contact.css">
     <link rel="preload" href="./imgs/contact-bg.jpg" as="image">
     <link rel="preload" href="./imgs/coding-academy-logo.png" as="image">
+    <link rel="preload" href="./imgs/user.svg" as="image">
     <link rel="icon" href="./imgs/coding-academy-icon.png">
 </head>
 <body>
     <header>
+        <img src="./imgs/coding-academy-logo.png" alt="coding academy logo" id="logo">
         <nav>
-            <img src="./imgs/coding-academy-logo.png" alt="coding academy logo" id="logo">
             <ul class="nav__bar">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./courses.html">Courses</a></li>
@@ -23,6 +24,13 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+        <div id="user">
+            <img src="imgs/user.svg" alt="" id="profile-img">
+            <div id="user-dropdown" class="hidden">
+                <span id="dropdown-triangle"></span>
+                <a href="#">Sign In</a>
+            </div>
+        </div>
     </header>
     <main>
         <section>
